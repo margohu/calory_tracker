@@ -38,6 +38,13 @@ const UICtrl = (function(){
 
 
 //App controller
-const App = (function(itemCtrl, UICtrl){
-    console.log('App')
+const App = (function(ItemCtrl, UICtrl){
+    return {
+        init: function () {
+            console.log('Initializing App')
+        }
+    }
 })(ItemCtrl, UICtrl);
+
+//App initialize
+App.init()
