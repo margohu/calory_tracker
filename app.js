@@ -21,9 +21,10 @@ const ItemCtrl = (function(){
         ],
         total: 0
     }
-    console.log(data)
-
     return {
+        getItems: function () {
+            return data items
+        },
         logData: function(){
             return data
         }
